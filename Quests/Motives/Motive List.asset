@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5efcf90977f5a4281979226f4e56eb, type: 3}
+  m_Name: Motive List
+  m_EditorClassIdentifier: 
+  Motive:
+  - ID: Comfort
+    motives:
+    - {fileID: 11400000, guid: 38e3a229397a61f4f914f549ef0737ab, type: 2}
+  - ID: Knowledge
+    motives:
+    - {fileID: 11400000, guid: 91f282aec7ed52d4f97666eb7045ca6f, type: 2}
+    - {fileID: 11400000, guid: d483debeb8a57ae409ca79aa7d2cf0eb, type: 2}
+    - {fileID: 11400000, guid: 7063a99ac59856144a458160b2ffdca6, type: 2}
+  - ID: Protect
+    motives:
+    - {fileID: 11400000, guid: 8bb3697cfc817bc4cb941712faa801a5, type: 2}
+    - {fileID: 11400000, guid: b33381587db9b144c8cdf025e07516d0, type: 2}
+  - ID: Reputation
+    motives:
+    - {fileID: 11400000, guid: 7f19ef6c021eef44db4c58600e5f400d, type: 2}
+    - {fileID: 11400000, guid: cb76fbe81ecabc442aa08103a0f1ff15, type: 2}
+  - ID: Serenity
+    motives:
+    - {fileID: 11400000, guid: 5d8b31733ee24824da1dea18a92b6b7c, type: 2}
+    - {fileID: 11400000, guid: e7ba01737f7e6e94787eb80b129823a1, type: 2}
+  - ID: Wealth
+    motives:
+    - {fileID: 11400000, guid: c55254735ac509a4c90df9318088e50a, type: 2}

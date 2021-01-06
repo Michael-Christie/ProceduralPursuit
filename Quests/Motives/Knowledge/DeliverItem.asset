@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c26d1d7f685074aafedc4f1fd3c519, type: 3}
+  m_Name: DeliverItem
+  m_EditorClassIdentifier: 
+  step:
+  - QuestList: 5
+    options:
+      attackOption: 0
+      itemOption: 1
+      GotoOption: 0
+    alwaysIncluded: 1
+    includePercentage: 0
+  - QuestList: 8
+    options:
+      attackOption: 0
+      itemOption: 0
+      GotoOption: 3
+    alwaysIncluded: 1
+    includePercentage: 0
+  - QuestList: 6
+    options:
+      attackOption: 0
+      itemOption: 0
+      GotoOption: 0
+    alwaysIncluded: 1
+    includePercentage: 0

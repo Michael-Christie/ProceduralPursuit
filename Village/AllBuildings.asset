@@ -1,0 +1,738 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e68c638eb8876045b5da3f651f602f7, type: 3}
+  m_Name: AllBuildings
+  m_EditorClassIdentifier: 
+  buildingList:
+  - ID: Civilians
+    buildings:
+    - prefab: {fileID: 8341089915190992328, guid: d151d076908b03645a31ffe824b691e9,
+        type: 3}
+      objectSize: {x: 4, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 2918012884879711089, guid: a8730f7aabf098e4a8817f2f19e0775c,
+        type: 3}
+      objectSize: {x: 6, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 634229054151085440, guid: 19dc1abdc3c7cd24a86f926b073584a6,
+        type: 3}
+      objectSize: {x: 6, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 0.1}
+      posX: {x: 0, y: 0, z: -0.1}
+      negY: {x: -0.1, y: 0, z: 0}
+      posY: {x: 0.1, y: 0, z: 0}
+    - prefab: {fileID: 349925713601803107, guid: 68c30dd78c230594ba234dfeca7e6f60,
+        type: 3}
+      objectSize: {x: 7, y: 6}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.1, y: 0, z: 0.25}
+      posX: {x: 0.1, y: 0, z: 0.25}
+      negY: {x: 0.25, y: 0, z: -0.1}
+      posY: {x: 0.25, y: 0, z: 0.1}
+    - prefab: {fileID: 3589975699146790335, guid: a544fb025c7bdff4296a003cca6532d3,
+        type: 3}
+      objectSize: {x: 5, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -1.7, y: 0, z: 0.7}
+      posX: {x: 1.7, y: 0, z: -0.7}
+      negY: {x: -1.2, y: 0, z: -0.7}
+      posY: {x: 0.7, y: 0, z: 0.7}
+    - prefab: {fileID: 7879141950886589783, guid: f03dcf5cf2623ee4c8bb1f7dbf0cfe22,
+        type: 3}
+      objectSize: {x: 6, y: 6}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 6002517487721650122, guid: c92adfefd4156f3499ba17a4be0268ed,
+        type: 3}
+      objectSize: {x: 8, y: 8}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.1, y: 0, z: 1.1}
+      posX: {x: 0.2, y: 0, z: 0.4}
+      negY: {x: 0.3, y: 0, z: -0.3}
+      posY: {x: 0.3, y: 0, z: 0.4}
+    - prefab: {fileID: 9083607233585156923, guid: 4928caf3a7e48d446bf84548d7988c14,
+        type: 3}
+      objectSize: {x: 9, y: 8}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.5, y: 0, z: 0.75}
+      posX: {x: 0.5, y: 0, z: 0.75}
+      negY: {x: 0.8, y: 0, z: 0.27}
+      posY: {x: 0.75, y: 0, z: -0.25}
+    - prefab: {fileID: 7384787728450646518, guid: 22c6d744c89b1ef49a9e79be31a2b870,
+        type: 3}
+      objectSize: {x: 6, y: 6}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 4013406424013206568, guid: 524a7cbadcef67c4fbf15332a0042e90,
+        type: 3}
+      objectSize: {x: 8, y: 6}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 0.2}
+      posX: {x: 0, y: 0, z: 0.2}
+      negY: {x: 0.2, y: 0, z: 0}
+      posY: {x: 0.2, y: 0, z: 0}
+    - prefab: {fileID: 3473542225455414704, guid: 662a3ccb59044be489d0f20a60440a10,
+        type: 3}
+      objectSize: {x: 8, y: 7}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -1.2, y: 0, z: 0.97}
+      posX: {x: 1.2, y: 0, z: 1.05}
+      negY: {x: 1.05, y: 0, z: -1.2}
+      posY: {x: 0.97, y: 0, z: 1.2}
+    - prefab: {fileID: 8210363101669640281, guid: ae2271a5295313d429c31a5a81896b91,
+        type: 3}
+      objectSize: {x: 6, y: 11}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.5, y: 0, z: 1.85}
+      posX: {x: 0.5, y: 0, z: 2.15}
+      negY: {x: 2.15, y: 0, z: -0.5}
+      posY: {x: 1.8, y: 0, z: 0.5}
+    - prefab: {fileID: 676703603121814306, guid: 0e7f113c3264b584c87d093f04117be1,
+        type: 3}
+      objectSize: {x: 5, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.5, y: 0, z: -0.2}
+      posX: {x: 0.5, y: 0, z: -0.2}
+      negY: {x: -0.2, y: 0, z: 0.45}
+      posY: {x: -0.2, y: 0, z: -0.45}
+    - prefab: {fileID: 5553798358728745387, guid: 0953f2fcec76a0249854b4b790cb0428,
+        type: 3}
+      objectSize: {x: 3, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.9, y: 0, z: -0.25}
+      posX: {x: 0.9, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: 0.09}
+      posY: {x: -0.25, y: 0, z: -0.09}
+    - prefab: {fileID: 3599088057517849293, guid: b0b598eb58042cd4da60ac0ae8b800f7,
+        type: 3}
+      objectSize: {x: 3, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.9, y: 0, z: -0.25}
+      posX: {x: 0.9, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: 0.09}
+      posY: {x: -0.25, y: 0, z: 0.09}
+    - prefab: {fileID: 5761106370079666833, guid: f3341d20e67772b4e8732c18c775b7e7,
+        type: 3}
+      objectSize: {x: 3, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -2.1, y: 0, z: 0.75}
+      posX: {x: 2.1, y: 0, z: -0.75}
+      negY: {x: -0.75, y: 0, z: -1.15}
+      posY: {x: -0.75, y: 0, z: 1.15}
+    - prefab: {fileID: 6744911541267149936, guid: 6bf0fb5ee17515f4bb1e6457023c7715,
+        type: 3}
+      objectSize: {x: 3, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -1.9, y: 0, z: 0.25}
+      posX: {x: 1.9, y: 0, z: 0.25}
+      negY: {x: 0.25, y: 0, z: -0.95}
+      posY: {x: 0.25, y: 0, z: 1}
+    - prefab: {fileID: 5399232345313328704, guid: 73f52fa877162df4885da15b6c906e6e,
+        type: 3}
+      objectSize: {x: 3, y: 1}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -2.25, y: 0, z: -0.7}
+      posX: {x: 2.25, y: 0, z: -0.3}
+      negY: {x: 0.05, y: 0, z: -1.25}
+      posY: {x: -0.75, y: 0, z: 1.25}
+    - prefab: {fileID: 7571355644241716496, guid: f29ae93075a796f4088eaf05440339c5,
+        type: 3}
+      objectSize: {x: 2, y: 2}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -1.14, y: 0, z: -1}
+      posX: {x: 1.14, y: 0, z: -0.4}
+      negY: {x: -0.45, y: 0, z: -1.14}
+      posY: {x: -1.1, y: 0, z: 1.14}
+    - prefab: {fileID: 5300068584783187102, guid: 5eeed3fae9b97ad49a458f9fd3ed8a51,
+        type: 3}
+      objectSize: {x: 3, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -2, y: 0, z: 1}
+      posX: {x: 2, y: 0, z: -1}
+      negY: {x: 1, y: 0, z: -1}
+      posY: {x: -1, y: 0, z: 1}
+    - prefab: {fileID: 7581040265326329549, guid: 1a0aa1c7f249b2345b2a9089d1320477,
+        type: 3}
+      objectSize: {x: 5, y: 2}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -1.75, y: 0, z: -0.5}
+      posX: {x: 1.75, y: 0, z: -0.5}
+      negY: {x: -0.5, y: 0, z: -0.75}
+      posY: {x: -1, y: 0, z: 0.75}
+    - prefab: {fileID: 8266737102495479692, guid: 6369604ab86dea74e8cdac19e6c030c2,
+        type: 3}
+      objectSize: {x: 4, y: 2}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.5, y: 0, z: -1}
+      posX: {x: 0.5, y: 0, z: -0.5}
+      negY: {x: -0.5, y: 0, z: -0.5}
+      posY: {x: -1, y: 0, z: 0.5}
+    - prefab: {fileID: 2655052714877089188, guid: 0e66f98e386bc1149ab5f8559f3001ab,
+        type: 3}
+      objectSize: {x: 2, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.9, y: 0, z: -0.25}
+      posX: {x: 0.9, y: 0, z: 0.25}
+      negY: {x: 0.25, y: 0, z: -0.9}
+      posY: {x: -0.25, y: 0, z: 0.9}
+    - prefab: {fileID: 47538295834048924, guid: ea79bfea38092a1499eceedb2c6bdc8b,
+        type: 3}
+      objectSize: {x: 2, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -1, y: 0, z: -0.2}
+      posX: {x: 1, y: 0, z: 0.2}
+      negY: {x: 0.2, y: 0, z: -1}
+      posY: {x: -0.2, y: 0, z: 1}
+    - prefab: {fileID: 9096651475029573766, guid: 2d7c67b2228444b41b5a1648021401ec,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.71, y: 0, z: -0.2}
+      posX: {x: 0.71, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.71}
+      posY: {x: -0.2, y: 0, z: 0.71}
+    - prefab: {fileID: 7102891262935883215, guid: 880f14db5ca437442bc1afdbcd092d37,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.7, y: 0, z: -0.25}
+      posX: {x: 0.7, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.7}
+      posY: {x: -0.25, y: 0, z: 0.7}
+    - prefab: {fileID: 363182062902245287, guid: 6581ba5d509e08144b7b168b20fd6785,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.7, y: 0, z: -0.25}
+      posX: {x: 0.7, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.7}
+      posY: {x: -0.25, y: 0, z: 0.7}
+    - prefab: {fileID: 131126335712989554, guid: 443ac7814d53d2740b68dfd3a10cab89,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.7, y: 0, z: -0.25}
+      posX: {x: 0.7, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.7}
+      posY: {x: -0.25, y: 0, z: 0.7}
+    - prefab: {fileID: 6479298144249995001, guid: 2e6ad88a1351eb045be652d0f2d85c1b,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.8, y: 0, z: -0.25}
+      posX: {x: 0.8, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.8}
+      posY: {x: -0.25, y: 0, z: 0.8}
+    - prefab: {fileID: 6321895304047789201, guid: 5f873906fc3c133479fa68dffe35be93,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.8, y: 0, z: -0.25}
+      posX: {x: 0.8, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.8}
+      posY: {x: -0.25, y: 0, z: 0.8}
+    - prefab: {fileID: 8998593075373819943, guid: c3e2c7b104e173f45887789ecea963e2,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.9, y: 0, z: -0.2}
+      posX: {x: 0.9, y: 0, z: -0.2}
+      negY: {x: -0.2, y: 0, z: -0.9}
+      posY: {x: -0.2, y: 0, z: 0.9}
+  - ID: Ruins
+    buildings:
+    - prefab: {fileID: 5621237351146369600, guid: b4ccb8b6c0e67c74e82058d47f4acbd9,
+        type: 3}
+      objectSize: {x: 3, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 2301354454237142816, guid: 83bab854edb0a5248a8cf5be3e835e42,
+        type: 3}
+      objectSize: {x: 3, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 1
+      negX: {x: -1.25, y: 0, z: 0}
+      posX: {x: 1.25, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 5841219066296988501, guid: 071cec540fc39624a8830d3f7cccdc86,
+        type: 3}
+      objectSize: {x: 4, y: 2}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 3766619000092987634, guid: 5bddf9ede992fc344a42d64496861cc8,
+        type: 3}
+      objectSize: {x: 2, y: 2}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: -0.9, y: 0, z: -0.7}
+      posY: {x: -0.9, y: 0, z: 0.7}
+    - prefab: {fileID: 7791563179527240752, guid: b4d966bb08b814a44a82280d8db0552a,
+        type: 3}
+      objectSize: {x: 3, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 3797381145008058931, guid: 702b0c611cdd55243a78b94cef366664,
+        type: 3}
+      objectSize: {x: 3, y: 2}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -2, y: 0, z: 0}
+      posX: {x: 2, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: -2}
+      posY: {x: 0, y: 0, z: 2}
+  - ID: Castle
+    buildings:
+    - prefab: {fileID: 3407155724143514577, guid: 9eb8bf54ed51d02439a0522bf2714ac7,
+        type: 3}
+      objectSize: {x: 23, y: 10}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: 3.5, y: 0, z: 0.5}
+      posX: {x: -3.5, y: 0, z: 0.5}
+      negY: {x: 1, y: 0, z: 1}
+      posY: {x: 1, y: 0, z: 1}
+    - prefab: {fileID: 8049405782787447712, guid: 883dd6d3e5b7ea541a40f64bc04e9554,
+        type: 3}
+      objectSize: {x: 12, y: 9}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 1.5}
+      posX: {x: 0, y: 0, z: 1.5}
+      negY: {x: 1, y: 0, z: 0.5}
+      posY: {x: 1, y: 0, z: -0.5}
+    - prefab: {fileID: 6349846998672350118, guid: 0b2037fee7fd8bc4fa6749dbeaceebb6,
+        type: 3}
+      objectSize: {x: 5, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: -0.5, y: 0, z: 3.4}
+      posX: {x: 0.5, y: 0, z: -3.4}
+      negY: {x: -3.4, y: 0, z: 0.5}
+      posY: {x: 3.4, y: 0, z: -0.5}
+    - prefab: {fileID: 3396585480170318035, guid: 965c657486dbc034ea3aac59529754a7,
+        type: 3}
+      objectSize: {x: 5, y: 5}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: -5.5, y: 0, z: 0}
+      posX: {x: 5.5, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: -5.5}
+      posY: {x: 0, y: 0, z: 5.5}
+    - prefab: {fileID: 2133155214315201811, guid: 9c1906a2c0e6bfc428b68e6e7fa72fe1,
+        type: 3}
+      objectSize: {x: 11, y: 16}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 5857706280555778311, guid: 52c0237f304dd8d4cb4c68933d014401,
+        type: 3}
+      objectSize: {x: 7, y: 6}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.5, y: 0, z: 4.5}
+      posX: {x: 0.5, y: 0, z: -4.5}
+      negY: {x: -4.5, y: 0, z: -0.5}
+      posY: {x: 4.5, y: 0, z: 0.5}
+    - prefab: {fileID: 705991237275615312, guid: 19b2c66b64b57ca4da339e2a496efc45,
+        type: 3}
+      objectSize: {x: 6, y: 5}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 0.25}
+      posX: {x: 0, y: 0, z: -0.25}
+      negY: {x: 0.25, y: 0, z: 0}
+      posY: {x: 0.25, y: 0, z: 0}
+    - prefab: {fileID: 1537246515183264873, guid: 806f772301e5597459d98b5167e4f2b7,
+        type: 3}
+      objectSize: {x: 2, y: 2}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: -0.8, y: 0, z: -0.8}
+      posX: {x: 0.8, y: 0, z: -0.8}
+      negY: {x: -0.8, y: 0, z: -0.8}
+      posY: {x: -0.8, y: 0, z: 0.8}
+    - prefab: {fileID: 8948830317774698058, guid: 2abee1522bf6a1b4ebdaa45cad560586,
+        type: 3}
+      objectSize: {x: 8, y: 8}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: 0.5, y: 0, z: 0.75}
+      posX: {x: -0.5, y: 0, z: 0.75}
+      negY: {x: 0.75, y: 0, z: -0.5}
+      posY: {x: 0.75, y: 0, z: 0.5}
+    - prefab: {fileID: 8450838269607322997, guid: 3efea6025db74314f9065ed6ad5adb69,
+        type: 3}
+      objectSize: {x: 4, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 1341339106177556159, guid: eb976d1a84926d24395f6fcd48f14402,
+        type: 3}
+      objectSize: {x: 5, y: 5}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 2497905177160023572, guid: 38293192451a2a145873706e54902bb3,
+        type: 3}
+      objectSize: {x: 5, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 349925713601803107, guid: 68c30dd78c230594ba234dfeca7e6f60,
+        type: 3}
+      objectSize: {x: 7, y: 6}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.1, y: 0, z: 0.25}
+      posX: {x: 0.1, y: 0, z: 0.25}
+      negY: {x: 0.25, y: 0, z: -0.1}
+      posY: {x: 0.25, y: 0, z: 0.1}
+    - prefab: {fileID: 9083607233585156923, guid: 4928caf3a7e48d446bf84548d7988c14,
+        type: 3}
+      objectSize: {x: 9, y: 8}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.5, y: 0, z: 0.75}
+      posX: {x: 0.5, y: 0, z: 0.75}
+      negY: {x: 0.8, y: 0, z: 0.27}
+      posY: {x: 0.75, y: 0, z: -0.25}
+    - prefab: {fileID: 7384787728450646518, guid: 22c6d744c89b1ef49a9e79be31a2b870,
+        type: 3}
+      objectSize: {x: 6, y: 6}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 3599088057517849293, guid: b0b598eb58042cd4da60ac0ae8b800f7,
+        type: 3}
+      objectSize: {x: 3, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.9, y: 0, z: -0.25}
+      posX: {x: 0.9, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.09}
+      posY: {x: -0.25, y: 0, z: 0.09}
+    - prefab: {fileID: 3599088057517849293, guid: b0b598eb58042cd4da60ac0ae8b800f7,
+        type: 3}
+      objectSize: {x: 3, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: -1.75, y: 0, z: -0.5}
+      posX: {x: 1.75, y: 0, z: -0.5}
+      negY: {x: -0.5, y: 0, z: -0.75}
+      posY: {x: -1, y: 0, z: 0.75}
+    - prefab: {fileID: 2655052714877089188, guid: 0e66f98e386bc1149ab5f8559f3001ab,
+        type: 3}
+      objectSize: {x: 2, y: 3}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.9, y: 0, z: -0.25}
+      posX: {x: 0.9, y: 0, z: 0.25}
+      negY: {x: 0.25, y: 0, z: -0.9}
+      posY: {x: -0.25, y: 0, z: 0.9}
+    - prefab: {fileID: 9096651475029573766, guid: 2d7c67b2228444b41b5a1648021401ec,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.71, y: 0, z: 0.2}
+      posX: {x: 0.71, y: 0, z: 0.25}
+      negY: {x: 0.25, y: 0, z: -0.71}
+      posY: {x: -0.2, y: 0, z: 0.71}
+    - prefab: {fileID: 7102891262935883215, guid: 880f14db5ca437442bc1afdbcd092d37,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.7, y: 0, z: -0.25}
+      posX: {x: 0.7, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.7}
+      posY: {x: -0.25, y: 0, z: 0.7}
+    - prefab: {fileID: 363182062902245287, guid: 6581ba5d509e08144b7b168b20fd6785,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.7, y: 0, z: -0.25}
+      posX: {x: 0.7, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.7}
+      posY: {x: -0.25, y: 0, z: 0.7}
+    - prefab: {fileID: 131126335712989554, guid: 443ac7814d53d2740b68dfd3a10cab89,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.7, y: 0, z: -0.25}
+      posX: {x: 0.7, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.7}
+      posY: {x: -0.25, y: 0, z: 0.7}
+    - prefab: {fileID: 6479298144249995001, guid: 2e6ad88a1351eb045be652d0f2d85c1b,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.8, y: 0, z: -0.25}
+      posX: {x: 0.8, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.8}
+      posY: {x: -0.25, y: 0, z: 0.8}
+    - prefab: {fileID: 6321895304047789201, guid: 5f873906fc3c133479fa68dffe35be93,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.8, y: 0, z: -0.25}
+      posX: {x: 0.8, y: 0, z: -0.25}
+      negY: {x: -0.25, y: 0, z: -0.8}
+      posY: {x: -0.25, y: 0, z: 0.8}
+    - prefab: {fileID: 8998593075373819943, guid: c3e2c7b104e173f45887789ecea963e2,
+        type: 3}
+      objectSize: {x: 2, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: -0.9, y: 0, z: -0.2}
+      posX: {x: 0.9, y: 0, z: -0.2}
+      negY: {x: -0.2, y: 0, z: -0.9}
+      posY: {x: -0.2, y: 0, z: 0.9}
+  - ID: Flowers
+    buildings:
+    - prefab: {fileID: 618634435377002088, guid: 1e55d0402b8dfd142ada1eb6f52d716c,
+        type: 3}
+      objectSize: {x: 4, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 280568083282937812, guid: d0df926d67ed2bd4698d1f8380d44a15,
+        type: 3}
+      objectSize: {x: 4, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 1990174777340468125, guid: 4b7dce3e3f2ce594ca69fe6c2e924917,
+        type: 3}
+      objectSize: {x: 4, y: 12}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 1.5}
+      posX: {x: 0, y: 0, z: 1.5}
+      negY: {x: 1.5, y: 0, z: 0}
+      posY: {x: 1.5, y: 0, z: 0}
+    - prefab: {fileID: 4814076968877331547, guid: 81f830f2202f9184ea0c54b479a3537f,
+        type: 3}
+      objectSize: {x: 4, y: 12}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 1.5}
+      posX: {x: 0, y: 0, z: 1.5}
+      negY: {x: 1.5, y: 0, z: 0}
+      posY: {x: 1.5, y: 0, z: 0}
+    - prefab: {fileID: 4338540871875319163, guid: 223bc32a132a7684c8673cc20c5126c9,
+        type: 3}
+      objectSize: {x: 4, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 6720790669225010380, guid: 320ea6dfb9cdded4f95fcfed401faec7,
+        type: 3}
+      objectSize: {x: 4, y: 4}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 0
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+  - ID: Unique City Buildings
+    buildings:
+    - prefab: {fileID: 4433893189149868781, guid: 8ca27c7e88317e64e8f5431fd8450e2b,
+        type: 3}
+      objectSize: {x: 6, y: 6}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 0
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 0}
+      posX: {x: 0, y: 0, z: 0}
+      negY: {x: 0, y: 0, z: 0}
+      posY: {x: 0, y: 0, z: 0}
+    - prefab: {fileID: 5894455732455856474, guid: 37771063076295c4587f00a92045f9fb,
+        type: 3}
+      objectSize: {x: 23, y: 16}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 1
+      negX: {x: 6, y: 0, z: 2.8}
+      posX: {x: -6, y: 0, z: 2.8}
+      negY: {x: 2.5, y: 0, z: 7}
+      posY: {x: 2.5, y: 0, z: -7}
+    - prefab: {fileID: 1444007905571959812, guid: 2c8f819d99597cb419aab3306df6d2b5,
+        type: 3}
+      objectSize: {x: 9, y: 9}
+      rotationSide: {x: 0, y: 1, z: 0}
+      SpawnInCorner: 1
+      SpawnsOnEdge: 1
+      negX: {x: 0, y: 0, z: 1.3}
+      posX: {x: 0, y: 0, z: 1.3}
+      negY: {x: 1.8, y: 0, z: 0.85}
+      posY: {x: 1.8, y: 0, z: -0.85}
+  wall: {fileID: 3886904275536486577, guid: 2673ebc6846af7041b16abde69a5b9e4, type: 3}
+  cornerWall: {fileID: 3464012676358374569, guid: dc527dd1c3bf6674392fc21ed6efbc2d,
+    type: 3}
